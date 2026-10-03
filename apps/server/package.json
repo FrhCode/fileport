@@ -1,0 +1,15 @@
+{
+  "name": "@fileport/server",
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "build": "bun build src/index.ts --outdir dist --target bun",
+    "start": "bun dist/index.js"
+  },
+  "dependencies": {
+    "@fastify/busboy": "^3.2.2",
+    "@hono/node-server": "latest",
+    "hono": "latest",
+    "nanoid": "latest"
+  }
+}

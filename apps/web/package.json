@@ -1,0 +1,1 @@
+{"name":"@fileport/web","private":true,"scripts":{"dev":"vite --host 0.0.0.0","build":"vite build"},"dependencies":{"@tanstack/react-query":"latest","@vitejs/plugin-react":"latest","react":"latest","react-dom":"latest","vite":"latest","typescript":"latest"},"devDependencies":{}}
